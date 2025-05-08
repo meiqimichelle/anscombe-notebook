@@ -1,11 +1,11 @@
-# Jupyter notebook: Anscombe's Quartet Visualization
+# Anscombe's Quartet
 
-A visualization of Anscombe's Quartet using Jupyter notebook and matplotlib in the style of Edward Tufte [The Visual Display of Quantitative Information](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/).
+Anscombe's Quartet via `Jupyter notebooks` and `matplotlib`, and drawn in the style of Edward Tufte ([The Visual Display of Quantitative Information](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/)). #graphicalexcellence
 
 ## What is?
-[Anscombe's Quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) is a classic statistics demonstration that shows how valuable it is to visualize data, even when its statistical properties appear similar, or in this case, identical.
+[Anscombe's Quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) is a classic statistics demonstration that shows the value of plotting data, even when statistical properties appear similar.
 
-All four datasets in the quartet have the following properties (but a very different distribution, once plotted):
+All four datasets in the quartet have the following properties:
 
 - N = 11
 - mean of X's = 9.0
@@ -19,10 +19,14 @@ All four datasets in the quartet have the following properties (but a very diffe
 - correlation coefficient = .82
 - r² = .67
 
+## Final treatment
+
+<img src="preview.png" width="600" alt="Anscombe's Quartet Visualization">
+
 ## But why?
 I am interested in the comparitive ability of various statistics and data visualization frameworks to load data and visualize (and customize!) graphs. I am starting with Jupyter notebooks, and plan to continue to other approaches, such as D3 and more out-of-the-box SaaS products such as Tableau.
 
-I started with this simple dataset because the last time I tried something like this, it was _deceptively difficult_ to achieve the level of typographic display customization I was after.
+I started with this simple dataset because the last time I tried something like this, it was _deceptively difficult_ to achieve the level of typographic display customization I was after. Today, in 2025 and with the help of Claude to ask questions about the customization options available, I was able to do a lot more with only Jupyter notebooks than I thought I'd be able to! Delightful.
 
 ## Requirements
 - Python 3.7+
@@ -31,10 +35,4 @@ I started with this simple dataset because the last time I tried something like 
 - seaborn
 
 ## Usage
-Open the `anscombe_visualization.ipynb` file in Jupyter Notebook or Jupyter Lab.
-
-## Preview
-
-<img src="preview.png" width="600" alt="Anscombe's Quartet Visualization">
-
-You can view the [full notebook here](anscombe_visualization.ipynb).
+Open the `anscombe_visualization.ipynb` file in Jupyter Notebook, or view the [full notebook here](./anscombe_visualization.ipynb), live in GitHub.
