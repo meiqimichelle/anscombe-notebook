@@ -35,4 +35,4 @@ I started with this simple dataset because the last time I tried something like 
 - seaborn
 
 ## Usage
-Open the `anscombe_visualization.ipynb` file in Jupyter Notebook, or view the [full notebook here](./anscombe.ipynb), live in GitHub.
+Open the `anscombe.ipynb` file in Jupyter Notebook, or view the [full notebook here](./anscombe.ipynb), live in GitHub.
